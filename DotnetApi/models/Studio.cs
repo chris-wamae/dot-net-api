@@ -1,6 +1,6 @@
 namespace DotnetApi.Models{
 
-class Studios {
+class Studio {
 
     //has many games
     public int Id {get;set;}
@@ -9,6 +9,7 @@ class Studios {
 
     public int Location {get;set;}
 
+    public ICollection<Game> Games {get;set;}
 
 }
 

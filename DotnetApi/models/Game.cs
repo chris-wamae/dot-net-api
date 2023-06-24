@@ -1,5 +1,5 @@
  namespace DotnetApi.Models{
-public class Games {
+public class Game {
    //belongs to a Studio
    //has many ProPlayers
    //has many Platforms 
@@ -9,7 +9,12 @@ public class Games {
    public string Title {get;set;}
 
    public DateTime ReleaseDate {get;set;}
+   
+   public ICollection<ProPlayer> ProPlayers {get;set;}
+   
+   public ICollection<Platform> Platforms {get;set;}
 
-}
+
+   }
 
 }

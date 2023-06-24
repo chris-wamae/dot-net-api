@@ -1,6 +1,6 @@
 namespace DotnetApi.Models
 {
-    class Platforms
+    public class Platform
     {
 
         //belongs to a ProPlayer
@@ -12,6 +12,8 @@ namespace DotnetApi.Models
 
         public int ReleaseDate { get; set; }
 
+       public ICollection<Game> Games {get;set;}
+       
     }
 
 }
