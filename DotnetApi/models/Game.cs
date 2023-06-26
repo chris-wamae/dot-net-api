@@ -9,11 +9,10 @@ public class Game {
    public string Title {get;set;}
 
    public DateTime ReleaseDate {get;set;}
-   
-   public ICollection<ProPlayer> ProPlayers {get;set;}
-   
-   public ICollection<Platform> Platforms {get;set;}
 
+   public Studio Studio  {get;set;}
+
+   public ICollection<ProPlayer> ProPlayers {get;set;}
 
    }
 

@@ -10,8 +10,11 @@ public class ProPlayer{
   public string Player_name {get;set;}
 
   public DateTime StartDate {get;set;}
+  
+  public Game Game {get;set;}
 
-  public ICollection<Game> Games {get;set;} 
+  public Platform Platform {get;set;}
+  
 
 }
 

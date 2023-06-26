@@ -12,8 +12,13 @@ namespace DotnetApi.Models
 
         public int ReleaseDate { get; set; }
 
-       public ICollection<Game> Games {get;set;}
+    //    public ICollection<Game> Games {get;set;}
+
+    public ICollection<ProPlayer> ProPlayers  {get;set;}
+
+    
        
     }
 
 }
+

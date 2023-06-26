@@ -1,6 +1,6 @@
 namespace DotnetApi.Models{
 
-class Studio {
+public class Studio {
 
     //has many games
     public int Id {get;set;}
