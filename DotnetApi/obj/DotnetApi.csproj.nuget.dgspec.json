@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/wamae/development/projects/personal/dot-net-api/DotnetApi/DotnetApi.csproj": {}
+    "C:\\Users\\chris\\development\\dot-net-api\\DotnetApi\\DotnetApi.csproj": {}
   },
   "projects": {
-    "/home/wamae/development/projects/personal/dot-net-api/DotnetApi/DotnetApi.csproj": {
+    "C:\\Users\\chris\\development\\dot-net-api\\DotnetApi\\DotnetApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wamae/development/projects/personal/dot-net-api/DotnetApi/DotnetApi.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\development\\dot-net-api\\DotnetApi\\DotnetApi.csproj",
         "projectName": "DotnetApi",
-        "projectPath": "/home/wamae/development/projects/personal/dot-net-api/DotnetApi/DotnetApi.csproj",
-        "packagesPath": "/home/wamae/.nuget/packages/",
-        "outputPath": "/home/wamae/development/projects/personal/dot-net-api/DotnetApi/obj/",
+        "projectPath": "C:\\Users\\chris\\development\\dot-net-api\\DotnetApi\\DotnetApi.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\development\\dot-net-api\\DotnetApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/wamae/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.107/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

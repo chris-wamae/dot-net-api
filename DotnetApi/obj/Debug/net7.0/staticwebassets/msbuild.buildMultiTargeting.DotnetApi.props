@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/DotnetApi.props" />
+  <Import Project="..\build\DotnetApi.props" />
 </Project>
